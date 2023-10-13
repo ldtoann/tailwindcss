@@ -191,12 +191,11 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <a
-                  href="#"
-                  className="no-underline inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
-                >
-                  Shop now
-                </a>
+                <Link href="/products" legacyBehavior>
+                  <a className="no-underline inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700">
+                    Shop now
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
